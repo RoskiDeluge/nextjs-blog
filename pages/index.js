@@ -21,10 +21,15 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>PJ Masks</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          {/* (This is a sample website - you’ll be building a site like this on{' '}
+          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.) */}
+          Amaya, Greg, and Connor become the superhero team PJ Masks when night
+          falls in order to fight enemies and rivals such as Romeo, Luna Girl,
+          Night Ninja, The Wolfy Kids, Motsuki, Octobella, Pharaoh Boy and
+          Munki-Gu to keep them from ruining people's days. Amaya becomes
+          Owlette (an owl), Greg becomes Gekko (a lizard), and Connor becomes
+          Catboy (a cat). (Wikipedia)
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
